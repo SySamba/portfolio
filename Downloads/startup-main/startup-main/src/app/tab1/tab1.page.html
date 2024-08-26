@@ -1,0 +1,117 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 1
+    </ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-icon name="person-add-outline" size="large"></ion-icon>
+      <ion-icon name="cart-outline" aria-hidden="true" slot="end" size="large"></ion-icon>
+      <ion-icon name="notifications-outline" slot="end" size="large"></ion-icon>
+    </ion-toolbar>
+  </ion-header>
+  <ion-searchbar placeholder="Chercher un produit"></ion-searchbar>
+ 
+ <ion-row>
+  <ion-col>
+    <ion-card color="primary" class="slide">
+    
+      <ion-card-content>
+        <ion-row>
+          <ion-col size="4">
+            <h2 class="white">Livraison à</h2>
+            <h2 class="white">Domicile</h2>
+            <p class="white">Ou vous voulez</p>
+            <p class="white">Quand vous voulez</p>
+          </ion-col>
+          <ion-col size="8">
+            <img src="assets/image/slide1.png" class="position-right">
+          </ion-col>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+  </ion-col>
+ </ion-row>
+ <ion-grid>
+ <ion-row>
+  <ion-col size="6" size-md="4" size-lg="2">
+    <ion-card class="produit">
+      <img alt="Silhouette of mountains" src="assets/image/riz1.png" />
+    
+      <ion-card-content >
+        <ion-card-subtitle>Riz Parfume</ion-card-subtitle>
+
+        <p>100% brisé 25 kg</p>
+        <ion-row>
+          <ion-col size="9" ><h1 style="padding-top: 8px;"><b >12000F</b></h1></ion-col>
+          <ion-col size="2"  class="position-right" ><ion-button  color="warning" shape="round">
+            <ion-icon slot="icon-only" name="add"></ion-icon>
+          </ion-button>
+        </ion-col>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+  </ion-col>
+  <ion-col size="6" size-md="4" size-lg="2">
+    <ion-card class="produit">
+      <img alt="Silhouette of mountains" src="assets/image/riz1.png" />
+    
+      <ion-card-content class="no-margin">
+        <ion-card-subtitle>Riz Parfume</ion-card-subtitle>
+
+        <p>100% brisé 25 kg</p>
+        <ion-row>
+          <ion-col size="9" ><h1 style="padding-top: 8px;"><b >12000F</b></h1></ion-col>
+          <ion-col size="2"  class="position-right" ><ion-button  color="warning" shape="round">
+            <ion-icon slot="icon-only" name="add"></ion-icon>
+          </ion-button>
+        </ion-col>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+  </ion-col>
+  <ion-col size="6" size-md="4" size-lg="2">
+    <ion-card class="produit">
+      <img alt="Silhouette of mountains" src="assets/image/riz1.png" />
+    
+      <ion-card-content class="no-margin">
+        <ion-card-subtitle>Riz Parfume</ion-card-subtitle>
+
+        <p>100% brisé 25 kg</p>
+        <ion-row>
+          <ion-col size="9" ><h2 style="padding-top: 8px;"><b >12000F</b></h2></ion-col>
+          <ion-col size="2"  class="position-right" ><ion-button  color="warning" shape="round">
+            <ion-icon slot="icon-only" name="add"></ion-icon>
+          </ion-button>
+        </ion-col>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+  </ion-col>
+  <ion-col size="6" size-md="4" size-lg="2">
+    <ion-card class="produit">
+      <img alt="Silhouette of mountains" src="assets/image/riz1.png" />
+    
+      <ion-card-content class="no-margin">
+        <ion-card-subtitle>Riz Parfume</ion-card-subtitle>
+
+        <p>100% brisé 25 kg</p>
+        <ion-row>
+          <ion-col size="9" ><h2 style="padding-top: 8px;"><b >12000F</b></h2></ion-col>
+          <ion-col size="2"  class="position-right" ><ion-button  color="warning" shape="round">
+            <ion-icon slot="icon-only" name="add"></ion-icon>
+          </ion-button>
+        </ion-col>
+        </ion-row>
+        
+      </ion-card-content>
+    </ion-card>
+  </ion-col>
+ </ion-row>
+</ion-grid>
+  <app-explore-container name="Tab 1 page"></app-explore-container>
+</ion-content>

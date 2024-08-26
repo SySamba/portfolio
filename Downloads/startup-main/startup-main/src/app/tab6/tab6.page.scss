@@ -1,0 +1,70 @@
+ion-content {
+  box-sizing: border-box;
+  position: relative;
+  background: #ABE87C;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  padding: 20px;
+}
+
+.address-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.address-modify {
+  margin-left: auto;
+  text-decoration: underline;
+  color: #F68615 !important; /* Couleur orange pour le lien Modifier */
+}
+
+.custom-checkbox {
+  --background: transparent;
+  --border-radius: 0; /* Case carrée */
+  --width: 24px;
+  --height: 24px;
+  --border-color: #000;
+  --checkmark-width: 18px; /* Taille de l'icône OK */
+  --checkmark-height: 18px; /* Taille de l'icône OK */
+  --checkmark-color: transparent; /* Couleur du V par défaut */
+}
+
+.custom-checkbox .checkbox-inner {
+  position: relative;
+}
+
+.custom-checkbox .checkbox-inner::before {
+  content: "\f00c"; /* Unicode pour l'icône OK de FontAwesome */
+  font-family: 'Ionicons';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px; /* Taille de l'icône OK */
+  color: #F68615; /* Couleur de l'icône OK */
+  opacity: 0; /* Caché par défaut */
+  transition: opacity 0.3s ease; /* Transition pour l'animation */
+}
+
+.custom-checkbox[checked] .checkbox-inner::before {
+  opacity: 1; /* Afficher l'icône OK lorsque sélectionné */
+}
+
+.add-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.footer-buttons {
+  position: absolute;
+  bottom: 20px; /* Ajuster cette valeur si nécessaire */
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.footer-buttons ion-button {
+  width: 100%;
+}

@@ -1,0 +1,14 @@
+ion-thumbnail {
+  --size: 80px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+}
+
+ion-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

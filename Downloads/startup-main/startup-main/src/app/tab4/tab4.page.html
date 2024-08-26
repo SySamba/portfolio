@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Adresse de livraison
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form (ngSubmit)="saveAddress()">
+    <ion-item>
+      <ion-label position="floating">Nom Complet</ion-label>
+      <ion-input [(ngModel)]="address.name" name="name" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Téléphone</ion-label>
+      <ion-input [(ngModel)]="address.phone" name="phone" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Adresse</ion-label>
+      <ion-input [(ngModel)]="address.street" name="street" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Ville</ion-label>
+      <ion-input [(ngModel)]="address.city" name="city" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Région</ion-label>
+      <ion-input [(ngModel)]="address.region" name="region" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Pays</ion-label>
+      <ion-input [(ngModel)]="address.country" name="country" required></ion-input>
+    </ion-item>
+    <ion-button shape="round" expand="block" color="warning">Enregistrer Adresse</ion-button>
+  </form>
+</ion-content>
+
