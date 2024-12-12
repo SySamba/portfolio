@@ -1,3 +1,4 @@
+
 /*==================================
 * Author        : "ThemeSine"
 * Template Name :  Browny  HTML Template
@@ -191,9 +192,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     justify-content: center;
     position:relative;
     background:url(../images/about/profile2.jpg)no-repeat;
-    background-size:cover;
+    background-size:450px;
     background-position: center;
-    height:890px;
+    height:790px;
 }
 .welcome-hero:before{
     position:absolute;
