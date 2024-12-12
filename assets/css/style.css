@@ -156,7 +156,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 
 
 /*.menu-ui-design*/
-.menu-ui-design{overflow-y:scroll;height: 350px;}
+.menu-ui-design{overflow-y:scroll;height: 250px;}
 .menu-ui-design::-webkit-scrollbar {
     width:5px;
 }
@@ -175,7 +175,7 @@ nav.navbar.bootsnav .navbar-toggle {
     position: relative;
     background-color: transparent;
     border: 1px solid #d92cf9;
-    padding: 10px;
+    padding: 5px;
     top: 0;
 }
 nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
@@ -187,14 +187,17 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
         3.  Welcome-hero
 --------------------------------------*/
 .welcome-hero{
+    margin-bottom: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     position:relative;
     background:url(../images/about/profile2.jpg)no-repeat;
-    background-size:450px;
+    background-size:cover;
+    
     background-position: center;
-    height:790px;
+    height:890px;
+    
 }
 .welcome-hero:before{
     position:absolute;
