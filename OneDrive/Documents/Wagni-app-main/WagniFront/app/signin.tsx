@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { View, TextInput, Button, StyleSheet, Alert, Text, TouchableOpacity } from 'react-native';
+import { TextInput, Button, StyleSheet, Alert, Text, TouchableOpacity } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import React from 'react';
@@ -55,7 +55,6 @@ export default function SignInScreen() {
             <Text style={styles.link}>Mot de passe oublié ?</Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => router.push('/signup')}>
-            
             <Text style={styles.link}>Cliquez ici si vous êtes nouveau</Text>
           </TouchableOpacity>
         </>
@@ -65,7 +64,20 @@ export default function SignInScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { padding: 16, gap: 12 },
-  input: { borderWidth: 1, padding: 10, borderRadius: 5, marginBottom: 10 },
-  link: { color: 'blue', marginTop: 10, textAlign: 'center' },
+  container: { 
+    padding: 16, 
+    gap: 12, 
+    backgroundColor: 'white' // Fond blanc ajouté ici
+  },
+  input: { 
+    borderWidth: 1, 
+    padding: 10, 
+    borderRadius: 5, 
+    marginBottom: 10 
+  },
+  link: { 
+    color: 'blue', 
+    marginTop: 10, 
+    textAlign: 'center' 
+  },
 });
