@@ -5,6 +5,7 @@ import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import styles from './styles';
 
+
 export default function SignUpScreen() {
   const router = useRouter();
   const [form, setForm] = useState({
