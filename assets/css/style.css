@@ -187,7 +187,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
         3.  Welcome-hero
 --------------------------------------*/
 .welcome-hero{
-    margin-bottom: 200px;
+   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -196,7 +196,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     background-size:cover;
     
     background-position: center;
-    height:890px;
+    height:1790px;
+    
     
 }
 .welcome-hero:before{
@@ -442,6 +443,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
    transform: translateX(-50%);
    margin-left: 0;
 }
+
 
 /*-------------------------------------
         7. Experience
